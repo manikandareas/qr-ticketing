@@ -1,4 +1,3 @@
-// app/features/shared/components/navigation.tsx (updated)
 import {
 	SignedIn,
 	SignedOut,
@@ -18,7 +17,6 @@ export function Navigation() {
 					<a href="/" className="text-gray-600 hover:text-gray-900">
 						Events
 					</a>
-
 					<SignedIn>
 						<a href="/my-tickets" className="text-gray-600 hover:text-gray-900">
 							My Tickets
