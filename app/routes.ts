@@ -1,10 +1,5 @@
 // app/routes.ts
-import {
-	index,
-	layout,
-	type RouteConfig,
-	route,
-} from "@react-router/dev/routes";
+import { index, type RouteConfig, route } from "@react-router/dev/routes";
 
 export default [
 	// Public routes
