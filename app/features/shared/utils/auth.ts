@@ -68,7 +68,7 @@ export async function requireEventOwner(args: any, eventId: string) {
 		});
 
 	const event = await http.query(api.events.getById, {
-		eventId: eventId as any,
+		eventId: eventId as Id<"events">,
 	});
 	if (!event) throw new Response("Not found", { status: 404 });
 
